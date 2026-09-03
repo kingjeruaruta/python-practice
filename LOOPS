@@ -1,0 +1,104 @@
+
+"""""
+number = int(input("Enter a number: "))
+
+for i in range(1, 21):
+    print(number * i)
+
+name = input("Enter your name: ")
+    
+for letter in range(len(name)):
+    print(name[letter])
+
+
+num = int(input("Enter a number: "))
+
+for j in range(1, 11):
+    print(f"{num} x {j} = {num * j}")
+"""
+"""
+pw = 12901290
+
+password = int(input("Enter password: "))
+
+while password != pw:
+    print("Incorrect password. Try again.")
+    password = int(input("Enter password: "))
+
+print("Access granted.")
+
+
+while True:
+    number = int(input("Enter 0 to stop: "))
+    print(f"You entered: {number}")
+
+    if number != 0:
+        print("I said enter 0 to stop.")
+    elif number == 0:
+        print("Stopping the loop.")
+        break
+"""
+"""     
+for i in range(1, 6):
+    for j in range(i):
+        print("*", end="")
+
+    print()  # Move to the next line after each row
+"""
+
+# For Loop
+
+# Print 1-10
+for i in range(1, 11):
+    print(i)
+
+# Print 10-1
+for i in range(10, 0, -1):
+    print(i)
+
+# Print even numbers from 1-20
+for i in range(2, 21, 2):
+    print(i)
+
+# Print odd numbers from 1-20
+for i in range(1, 21, 2):
+    print(i)
+
+# Multiplication Table
+number = int(input("Enter a number: "))
+for i in range(1, 11):
+        print(f"{number} x {i} = {number * i}")
+
+# While Loop
+
+# Countdown from 10 to 0
+count = 10
+
+while count >= 0:
+     print(count)
+     count -= 1
+
+print("Countdown complete!")
+
+# Password Retry
+
+pw = int(input("Set your password: "))
+
+while pw != 1234:
+    print("Incorrect password. Try again.")
+    pw = int(input("Enter password: ")) 
+
+print("Access granted.")
+
+# Number Guessing Game
+
+number_to_guess = 7
+guess = int(input("Guess the number between 1 and 10: "))
+
+while guess != number_to_guess:
+    print("Incorrect guess. Try again.")
+    guess = int(input("Guess the number between 1 and 10: "))   
+
+print("Congratulations! You guessed the correct number.")
+
+

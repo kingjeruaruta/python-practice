@@ -1,0 +1,12 @@
+# Average Computer
+
+name = input("Enter your name  : ")
+
+exam_1 = float(input("Enter your first exam grade  : "))
+exam_2 = float(input("Enter your second exam grade  : "))
+exam_3 = float(input("Enter your third exam grade  : "))
+
+average = (exam_1 + exam_2 + exam_3) / 3
+
+print(f"Hello, {name}!")
+print(f"Your average grade is: {average:.2f}")
