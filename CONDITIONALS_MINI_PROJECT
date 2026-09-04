@@ -1,3 +1,5 @@
+""""
+
 # Grade Calculator
 grade_math = float(input("Enter your Math grade          : "))
 grade_filipino = float(input("Enter your Filipino grade  : "))
@@ -68,5 +70,13 @@ else:
 
 for i in range(0, 100, 5):
     print(i)
+"""
+
+password = ""
+
+while password != "1234":
+    password = input("Password: ")
+
+print("Access granted!")
 
 
