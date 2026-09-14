@@ -1,11 +1,29 @@
-if 5 > 2:
-    print ("angas")
-#comment lang itu 
-#aray ko
+"""
+name = input("Ano pangalan mo boy?")
+age = int(input("Ilang taon kana boy?"))
 
+
+print(name)
+print(age)
+
+# Ako si -name- at ako'y -age- taong gulang
+
+print(f"Ako si {name} at ako'y {age} taong gulang")
 """
-so guys
-meron akong
-aso
-"""
+
+# Magtatanong ng name, age, sex, address(street), zipcode
+# Name      : Jacob
+# Age       : 20
+# Sex       : Male
+# Address   : Pedro Escueta Street
+# Zipcode   : 4024
+
+name = input("Sino po sila? ")
+age = int(input("ilang taon ka na ba "))
+sex = input("Sex? ")
+address = input("Saan ka naka TIRA? ")
+zipcode = int(input("Zipcode mo bro? "))
+
+print(f"Name     : {name}\nAge      : {age}\nSex      : {sex}\nAddress  : {address}\nZipcode  : {zipcode}")
+
 

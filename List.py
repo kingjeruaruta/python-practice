@@ -9,7 +9,7 @@ passw = input("Enter your password: ")
 
 
 while True:
-    if user in accounts and passw in accounts[user] == passw:
+    if user in accounts and accounts[user] == passw:
         print(f"Welcome, {user}!")
         break
     else:
