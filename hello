@@ -1,4 +1,4 @@
-"""
+
 name = input("Ano pangalan mo boy?")
 age = int(input("Ilang taon kana boy?"))
 
@@ -9,14 +9,8 @@ print(age)
 # Ako si -name- at ako'y -age- taong gulang
 
 print(f"Ako si {name} at ako'y {age} taong gulang")
-"""
 
-# Magtatanong ng name, age, sex, address(street), zipcode
-# Name      : Jacob
-# Age       : 20
-# Sex       : Male
-# Address   : Pedro Escueta Street
-# Zipcode   : 4024
+
 
 name = input("Sino po sila? ")
 age = int(input("ilang taon ka na ba "))
