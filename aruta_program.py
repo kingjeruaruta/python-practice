@@ -1,9 +1,11 @@
 
 # Number 1
-print("Hello World!")
+print(" -- NUMBER 1 -- ")
+print("Hello World!\n")
 
 # Number 2
-print("\n5 things about myself:")
+print(" -- NUMBER 2 -- ")
+print("5 things about myself:")
 print("\n - I like to play Valorant")
 print(" - I love to write freely")
 print(" - I love going to ELBI")
@@ -11,12 +13,13 @@ print(" - I like to vibe code, but it sucks sometimes")
 print(" - I want to be a film maker in another timeline\n")
 
 # Number 3
-print(f"Name  : King Israel S. Aruta")
+print(" -- NUMBER 3 -- ")
+print("Name  : King Israel S. Aruta")
 print(f"Age   : {20} years old")
 
 
 num1 = 5
-print(num1)
+print(f"\n{num1}")
 
 num2 = "Hello World"
 print(num2)
@@ -32,6 +35,7 @@ print(numTwo)
 print(num_3)
 
 # Number 4
+print("\n -- NUMBER 4 -- ")
 num_1 = 99
 num_2 = 89
 
