@@ -1,4 +1,4 @@
-print("\n === CALCULATOR === ")
+print("\n === BASIC CALCULATOR === ")
 number1 = float(input("\nEnter first no.             : "))
 number2 = float(input("Enter second no.            : "))
 
