@@ -1,11 +1,11 @@
 print("Hello World")
 
 print("\n 5 Things about Me")
-print("1. I Love Mhaya")
-print("2. I Love Smoking")
+print("1. I Love Cake")
+print("2. I like to play Mobile legends")
 print("3. I Love playing Valorant")
 print("4. No Time Management")
-print("5. I get horny all the time")
+print("5. Can't say no")
 
 name = "Jacob"
 age = 20

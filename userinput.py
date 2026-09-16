@@ -16,7 +16,7 @@ print(f"\nSum         : {add} \nDifference  : {sub} \nProduct     : {mul} \nQuot
 
 
 print("\n === CALCULATOR === ")
-num1 = float(input("\Enter first no.          : "))
+num1 = float(input("Enter first no.          : "))
 num2 = float(input("Enter second no.         : "))
 oper =   input("Enter operator (+, -, *, /) : ")
 
