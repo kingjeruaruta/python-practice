@@ -9,16 +9,16 @@ print(" === GRADE EVALUATOR === ")
 
 student_name = input("Enter full name: ")
 
-print("Enter your Grades below:")
+print("\nEnter your Grades below:")
 print("Type 0 if you have no grade")
 
-programming_3 = int(input("Programming 3 : "))
+programming_3 = int(input("\nProgramming 3 : "))
 rva           = int(input("RVA           : "))
 dsa           = int(input("DSA           : "))
 dcan          = int(input("DCAN          : "))
-ds            = int(input("DS            : "))
+os            = int(input("DS            : "))
 
-grades = [programming_3, rva, dsa, dsa, dcan, ds]
+grades = [programming_3, rva, dsa, dsa, dcan, os]
 
 if 0 in grades:
     final = "INC"
@@ -48,9 +48,17 @@ else:
     else:
         print("Invalid (OVERLOAD, INC, WITHDRAWN, DROPPED)")
 
+print(f"\n === GRADE EVALUATOR === ")
+print(f"Student's Name      : {student_name}")
 
+print(f"\nSchool Year 2627 First Semester")
+print(f"Programming 3       : {programming_3}")
+print(f"DSA                 : {dsa}")
+print(f"DCAN                : {dcan}")
+print(f"OS                  : {os}")
+print(f"RVA                 : {rva}")
+print(f"Average             : {average}")
 
-print(f"Student's Name : {student_name}")
-print(f"Final Grade    : {final}")
+print(f"\nFinal Grade         : {final}")
 
 
