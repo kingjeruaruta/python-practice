@@ -20,11 +20,11 @@ os            = int(input("DS            : "))
 
 grades = [programming_3, rva, dsa, dsa, dcan, os]
 
+average = sum(grades) / len(grades)
+
 if 0 in grades:
     final = "INC"
 else:
-    average = sum(grades) / len(grades)
-
     if average >= 97:
         final = (1.00)
     elif average >= 94:
@@ -58,7 +58,7 @@ print(f"DCAN                : {dcan}")
 print(f"OS                  : {os}")
 print(f"RVA                 : {rva}")
 
-print(f"\nAverage           : {average}")
+print(f"\nAverage             : {average}")
 print(f"Final Grade         : {final}")
 
 
