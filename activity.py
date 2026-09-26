@@ -23,7 +23,7 @@ grades = [programming_3, rva, dsa, dsa, dcan, ds]
 if 0 in grades:
     final = "INC"
 else:
-    average = sum(grades) / 5
+    average = sum(grades) / len(grades)
 
     if average >= 97:
         final = (1.00)
