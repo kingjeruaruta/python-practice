@@ -57,8 +57,8 @@ print(f"DSA                 : {dsa}")
 print(f"DCAN                : {dcan}")
 print(f"OS                  : {os}")
 print(f"RVA                 : {rva}")
-print(f"Average             : {average}")
 
-print(f"\nFinal Grade         : {final}")
+print(f"\nAverage           : {average}")
+print(f"Final Grade         : {final}")
 
 
